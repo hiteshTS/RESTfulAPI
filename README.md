@@ -41,8 +41,8 @@ The provided curl commands and instructions allow easy testing of each endpoint.
 ### 7. Add error handling to gracefully handle unexpected issues.
 The API includes robust error handling mechanisms. Try-catch blocks or Express.js middleware are used to catch errors. Appropriate error messages and status codes are sent to clients to ensure they receive meaningful information about unexpected issues.
 ## *Bonus Points (Optional):*
-####- Implement pagination for the `GET /tasks` endpoint.
+#### - Implement pagination for the `GET /tasks` endpoint.
   Pagination has been implemented for the GET /tasks endpoint. Clients can use the page and pageSize parameters to navigate through the task list.
-####- Add sorting and filtering options for task retrieval.
+#### - Add sorting and filtering options for task retrieval.
 ![image](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/16794380-01e5-477d-9eba-6c5c2cf06965)
 
