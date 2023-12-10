@@ -23,8 +23,7 @@ database required). Your API should support the following endpoints:
 
 ## *Requirements:*
 ### 1. Use Express.js to build the API.
-   Yes, I have used Express.js to build the API. The main script (app.js) includes the Express setup, route definitions, and server 
-   initialization.
+   Yes, I have used Express.js to build the API. The main script (app.js) includes the Express setup, route definitions, and server initialization.
    ![Screenshot (693)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/c27e6c6b-4a1f-4019-a312-28ba5ec66543)
 
 ### 2. Implement basic validation to ensure that task properties are required (e.g., title,description).
@@ -42,8 +41,8 @@ The provided curl commands and instructions allow easy testing of each endpoint.
 ### 7. Add error handling to gracefully handle unexpected issues.
 The API includes robust error handling mechanisms. Try-catch blocks or Express.js middleware are used to catch errors. Appropriate error messages and status codes are sent to clients to ensure they receive meaningful information about unexpected issues.
 ## *Bonus Points (Optional):*
-- Implement pagination for the `GET /tasks` endpoint.
+####- Implement pagination for the `GET /tasks` endpoint.
   Pagination has been implemented for the GET /tasks endpoint. Clients can use the page and pageSize parameters to navigate through the task list.
-- Add sorting and filtering options for task retrieval.
+####- Add sorting and filtering options for task retrieval.
 ![image](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/16794380-01e5-477d-9eba-6c5c2cf06965)
 
