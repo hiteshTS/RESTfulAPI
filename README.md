@@ -1,18 +1,26 @@
 ## RESTfulAPI
 # Assignment: Build a Basic RESTful API
 # Description:
- tasked with building a simple RESTful API using Node.js that manages a collection
+Tasked with building a simple RESTful API using Node.js that manages a collection
 of tasks (e.g., to-do items). The API should allow users to perform basic CRUD (Create,
 Read, Update, Delete) operations on tasks. The data should be stored in memory (no
 database required). Your API should support the following endpoints:
 
-1. ## `GET /tasks`: Retrieve a list of all tasks.
-   
-3. `GET /tasks/:id`: Retrieve a specific task by ID.
-4. `POST /tasks`: Create a new task.
-5. `PUT /tasks/:id`: Update an existing task by ID.
-6. `DELETE /tasks/:id`: Delete a task by ID.
-   
+## 1. `GET /tasks`: Retrieve a list of all tasks.
+![Screenshot (687)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/db34c35d-5f8e-4679-93ae-791d83010be7)
+
+## 2. `GET /tasks/:id`: Retrieve a specific task by ID.
+![Screenshot (688)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/81b95a98-8021-4303-9f80-3ef163804ca5)
+
+## 3. `POST /tasks`: Create a new task.
+![Screenshot (689)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/67cf8753-eae5-4e57-a5b8-77bcfb75a46f)
+
+## 4. `PUT /tasks/:id`: Update an existing task by ID.
+![Screenshot (691)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/4de023eb-855b-4398-b289-0983ed1d7d93)
+
+## 5. `DELETE /tasks/:id`: Delete a task by ID.
+![Screenshot (692)](https://github.com/hiteshTS/RESTfulAPI/assets/137639073/8911726f-c7cd-47ac-8d85-e130b3aa2057)
+
 *Requirements:*
 1. Use Express.js to build the API.
 2. Implement basic validation to ensure that task properties are required (e.g., title,
